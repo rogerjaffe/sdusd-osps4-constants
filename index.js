@@ -138,6 +138,11 @@ const CONSTANTS = {
       AC2: 0x80,  // Other English semester 2
       AL_OR_AC1: 0x100,  // Have credit for at least 1 AmLit1 OR Other1
       AL_OR_AC2: 0x200   // Have credit for at least 2 AmLit1 OR Other2
+    },
+    ELE: {
+      GRAD: 0x1,
+      SEM1: 0x2,
+      SEM2: 0x4,
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "sdusd-osps4-constants",
+  "version": "1.0.0",
+  "description": "Constants for OSPS V4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/rogerjaffe/sdusd-osps4-constants.git"
+  },
+  "author": "Roger Jaffe",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/rogerjaffe/sdusd-osps4-constants#readme"
+}

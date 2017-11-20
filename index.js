@@ -143,6 +143,63 @@ const CONSTANTS = {
       GRAD: 0x1,
       SEM1: 0x2,
       SEM2: 0x4,
+    },
+    HIS: {
+      GRAD: 0x1,      // Graduation requirements
+      WH1: 0x2,       // World History 1
+      WH2: 0x4,       // World History 2
+      US1: 0x8,       // US History 1
+      US2: 0x10,      // US History 2
+      GOV: 0x20,      // Governmant
+      ECON: 0x40,     // Economics
+      GOV_ECON: 0x80  // One of Gov / Econ
+    },
+    LOE: {
+      GRAD: 0x1,
+      LEVEL4: 0x2,
+      LOTE: 0x4
+    },
+    MTH: {
+      GRAD: 0x1,
+      IM1A: 0x2,
+      IM1B: 0x4,
+      IM2A: 0x8,
+      IM2B: 0x10,
+      IM3A: 0x20,
+      IM3B: 0x40,
+      COLLEGE: 0x80
+    },
+    NCR: {
+      GRAD: 0x1
+    },
+    OTH: {
+      GRAD: 0x1
+    },
+    PED: {
+      GRAD: 0x1,
+      SEM1: 0x2,
+      SEM2: 0x4,
+      SEM3: 0x8,
+      SEM4: 0x10,
+      SCHEDULED: 0x20,
+      FITNESSGRAM: 0x40
+    },
+    SCI: {
+      GRAD: 0x1,
+      BIO: 0x2,
+      CHE: 0x4,
+      PHY: 0x8,
+      LIFE: 0x10,
+      PHYSICAL: 0x20,
+      OTHER: 0x40,
+      _1REQMT: 0x80,
+      _2REQMT: 0x100,
+      _3REQMT: 0x200
+    },
+    VPA: {
+      GRAD: 0x1,
+      SEM1: 0x2,
+      SEM2: 0x4,
     }
   }
 }

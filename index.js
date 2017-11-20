@@ -252,4 +252,167 @@ CONSTANTS.PS_DATA = [
   }
 ]
 
+CONSTANTS.SDUSD_AT_RISK = [
+  {
+    name: 'SDUSD 1',
+    config: {
+      ELA: [
+        {
+     title: 'English 1',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN2',
+          title: 'English 2',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN3',
+          title: 'English 3',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN4',
+          title: 'English 4',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'ALAC1',
+          title: 'Am Lit 1 or Addl Eng 1',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'ALAC2',
+          title: 'Am Lit 2 or Addl Eng 2',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      ELE: [
+        {
+          criteria: 'ELE1',
+          title: 'Elective 1',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'ELE2',
+          title: 'Elective 2',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      HIS: [
+         {
+          criteria: 'WH1',
+          title: 'World History 1',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'WH2',
+          title: 'World History 2',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'US1',
+          title: 'US History 2',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'US2',
+          title: 'US History 2',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      LOE: [
+        {
+          criteria: 'YR1',
+          title: '1st year or LOTE exam',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'YR2',
+          title: '2nd year or LOTE exam',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      MTH: [
+        {
+          criteria: 'IM1A',
+          title: 'Integ Math 1A or higher',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM1B',
+          title: 'Integ Math 1B or higher',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM2A',
+          title: 'Integ Math 2A or higher',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM2B',
+          title: 'Integ Math 2B or higher',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM3A',
+          title: 'Integ Math 3A or higher',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'IM3B',
+          title: 'Integ Math 3B or higher',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      PED: [
+        {
+          criteria: 'SCHED',
+          title: 'PE scheduled',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: '2_AND_SCHED',
+          title: '2 credits and scheduled',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: '4_AND_FITNESSGRAM',
+          title: '4 credits and Fitnessgram OR scheduled',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      SCI: [
+        {
+          criteria: '2_CREDITS',
+          title: '2 credits of any type',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: '4_CREDITS',
+          title: '4 credits in two areas',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'GRAD',
+          title: "Sci reqmt's satisfied",
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      VPA: [
+        {
+          criteria: 'SEM1',
+          title: 'Semester 1',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'SEM2',
+          title: 'Semester 2',
+          grades: {9: false, 10: true, 11: true}
+        }
+      ]
+    }
+  }
+]
+
 module.exports = CONSTANTS

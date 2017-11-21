@@ -261,7 +261,8 @@ CONSTANTS.SDUSD_AT_RISK = [
     config: {
       ELA: [
         {
-     title: 'English 1',
+          criteria: 'EN1',
+          title: 'English 1',
           grades: {9: true, 10: true, 11: true}
         },
         {
@@ -373,6 +374,11 @@ CONSTANTS.SDUSD_AT_RISK = [
           criteria: 'SCHED',
           title: 'PE scheduled',
           grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: '2_AND_FITNESSGRAM',
+          title: '2 credits and Fitnessgram',
+          grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: '2_AND_SCHED',

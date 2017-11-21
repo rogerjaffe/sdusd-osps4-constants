@@ -254,7 +254,6 @@ CONSTANTS.PS_DATA = [
 
 CONSTANTS.SDUSD_AT_RISK = [
   {
-    id: '',
     email: '',
     teacher_number: '',
     list_name: 'SDUSD default 1',

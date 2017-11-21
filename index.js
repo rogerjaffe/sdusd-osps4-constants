@@ -254,7 +254,10 @@ CONSTANTS.PS_DATA = [
 
 CONSTANTS.SDUSD_AT_RISK = [
   {
-    name: 'SDUSD 1',
+    email: '',
+    teacher_number: '',
+    list_name: 'SDUSD default 1',
+    user_name: 'SDUSD',
     config: {
       ELA: [
         {

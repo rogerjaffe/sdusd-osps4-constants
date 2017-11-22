@@ -254,6 +254,7 @@ CONSTANTS.PS_DATA = [
 
 CONSTANTS.SDUSD_AT_RISK = [
   {
+    id: -1,
     email: '',
     teacher_number: '',
     list_name: 'SDUSD default 1',
@@ -263,31 +264,37 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'EN1',
           title: 'English 1',
+          help: 'abc',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'EN2',
           title: 'English 2',
+          help: 'def',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'EN3',
           title: 'English 3',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'EN4',
           title: 'English 4',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'ALAC1',
           title: 'Am Lit 1 or Addl Eng 1',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         },
         {
           criteria: 'ALAC2',
           title: 'Am Lit 2 or Addl Eng 2',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -295,33 +302,39 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'ELE1',
           title: 'Elective 1',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         },
         {
           criteria: 'ELE2',
           title: 'Elective 2',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
       HIS: [
-         {
+        {
           criteria: 'WH1',
           title: 'World History 1',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'WH2',
           title: 'World History 2',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'US1',
           title: 'US History 2',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         },
         {
           criteria: 'US2',
           title: 'US History 2',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -329,11 +342,13 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'YR1',
           title: '1st year or LOTE exam',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'YR2',
           title: '2nd year or LOTE exam',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -341,31 +356,37 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'IM1A',
           title: 'Integ Math 1A or higher',
+          help: '',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'IM1B',
           title: 'Integ Math 1B or higher',
+          help: '',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'IM2A',
           title: 'Integ Math 2A or higher',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'IM2B',
           title: 'Integ Math 2B or higher',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'IM3A',
           title: 'Integ Math 3A or higher',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         },
         {
           criteria: 'IM3B',
           title: 'Integ Math 3B or higher',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -373,21 +394,25 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'SCHED',
           title: 'PE scheduled',
+          help: '',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: '2_AND_FITNESSGRAM',
           title: '2 credits and Fitnessgram',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: '2_AND_SCHED',
           title: '2 credits and scheduled',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: '4_AND_FITNESSGRAM',
           title: '4 credits and Fitnessgram OR scheduled',
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -395,16 +420,19 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: '2_CREDITS',
           title: '2 credits of any type',
+          help: '',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: '4_CREDITS',
           title: '4 credits in two areas',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'GRAD',
           title: "Sci reqmt's satisfied",
+          help: '',
           grades: {9: false, 10: false, 11: true}
         }
       ],
@@ -412,11 +440,13 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'SEM1',
           title: 'Semester 1',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'SEM2',
           title: 'Semester 2',
+          help: '',
           grades: {9: false, 10: true, 11: true}
         }
       ]

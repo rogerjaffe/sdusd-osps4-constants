@@ -264,37 +264,37 @@ CONSTANTS.SDUSD_AT_RISK = [
         {
           criteria: 'EN1',
           title: 'English 1',
-          help: 'abc',
+          help: 'Student has taken or is taking (and presumed to pass) English 1',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'EN2',
           title: 'English 2',
-          help: 'def',
+          help: 'Student has taken or is taking (and presumed to pass) English 2',
           grades: {9: true, 10: true, 11: true}
         },
         {
           criteria: 'EN3',
           title: 'English 3',
-          help: '',
+          help: 'Student has taken or is taking (and presumed to pass) English 3',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'EN4',
           title: 'English 4',
-          help: '',
+          help: 'Student has taken or is taking (and presumed to pass) English 4',
           grades: {9: false, 10: true, 11: true}
         },
         {
           criteria: 'ALAC1',
           title: 'Am Lit 1 or Addl Eng 1',
-          help: '',
+          help: 'Student has taken or is taking (and presumed to pass) first semester of a course that offers American Literature credit OR an additional English course',
           grades: {9: false, 10: false, 11: true}
         },
         {
           criteria: 'ALAC2',
           title: 'Am Lit 2 or Addl Eng 2',
-          help: '',
+          help: 'Student has taken or is taking (and presumed to pass) second semester of a course that offers American Literature credit OR an additional English course',
           grades: {9: false, 10: false, 11: true}
         }
       ],

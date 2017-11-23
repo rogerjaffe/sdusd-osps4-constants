@@ -459,7 +459,7 @@ CONSTANTS.SDUSD_AT_RISK = [
     }
   },
   {
-    id: -1,
+    id: -2,
     email: '',
     teacher_number: '',
     list_name: 'SDUSD default 2',

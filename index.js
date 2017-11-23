@@ -457,6 +457,211 @@ CONSTANTS.SDUSD_AT_RISK = [
         }
       ]
     }
+  },
+  {
+    id: -1,
+    email: '',
+    teacher_number: '',
+    list_name: 'SDUSD default 2',
+    user_name: 'SDUSD',
+    config: {
+      ELA: [
+        {
+          criteria: 'EN1',
+          title: 'English 1',
+          help: 'Student has taken or is taking (and presumed to pass) English 1',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN2',
+          title: 'English 2',
+          help: 'Student has taken or is taking (and presumed to pass) English 2',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN3',
+          title: 'English 3',
+          help: 'Student has taken or is taking (and presumed to pass) English 3',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'EN4',
+          title: 'English 4',
+          help: 'Student has taken or is taking (and presumed to pass) English 4',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'ALAC1',
+          title: 'Am Lit 1 or Addl Eng 1',
+          help: 'Student has taken or is taking (and presumed to pass) first semester of a course that offers American Literature credit OR an additional English course',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'ALAC2',
+          title: 'Am Lit 2 or Addl Eng 2',
+          help: 'Student has taken or is taking (and presumed to pass) second semester of a course that offers American Literature credit OR an additional English course',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      ELE: [
+        {
+          criteria: 'ELE1',
+          title: 'Elective 1',
+          help: 'Student has taken or is taking (and presumed to pass) a first semester elective course',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'ELE2',
+          title: 'Elective 2',
+          help: 'Student has taken or is taking (and presumed to pass) the second semester elective course that is a companion to one of the first semester courses',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      HIS: [
+        {
+          criteria: 'WH1',
+          title: 'World History 1',
+          help: 'Student has taken or is taking (and presumed to pass) a first semester World History course',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'WH2',
+          title: 'World History 2',
+          help: 'Student has taken or is taking (and presumed to pass) a second semester World History course',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'US1',
+          title: 'US History 1',
+          help: 'Student has taken or is taking (and presumed to pass) a first semester US History course',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'US2',
+          title: 'US History 2',
+          help: 'Student has taken or is taking (and presumed to pass) a second semester World History course',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      LOE: [
+        {
+          criteria: 'YR1',
+          title: '1st year or LOTE exam',
+          help: 'Student has taken or is taking (and presumed to pass) the first year of any language other than English OR student has passed the LOTE exam',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'YR2',
+          title: '2nd year or LOTE exam',
+          help: 'Student has taken or is taking (and presumed to pass) the second year of any language other than English OR student has passed the LOTE exam.  This requirement satisfies the Language Other Than English graduation requirement',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      MTH: [
+        {
+          criteria: 'IM1A',
+          title: 'Integ Math 1A or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1A or equivalent course or a higher level math course',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM1B',
+          title: 'Integ Math 1B or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1B or equivalent course or a higher level math course',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM2A',
+          title: 'Integ Math 2A or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2A or equivalent course or a higher level math course',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM2B',
+          title: 'Integ Math 2B or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2B or equivalent course or a higher level math course',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'IM3A',
+          title: 'Integ Math 3A or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3A or equivalent course or a higher level math course',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: 'IM3B',
+          title: 'Integ Math 3B or higher',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3B or equivalent course or a higher level math course',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      PED: [
+        {
+          criteria: 'SCHED',
+          title: 'PE scheduled',
+          help: 'Student has taken or is taking (and presumed to pass) PE courses',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: '2_AND_FITNESSGRAM',
+          title: '2 credits and Fitnessgram',
+          help: 'Student has taken or is taking (and presumed to pass) two credits of PE courses AND has passed the Fitnessgram',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: '2_AND_SCHED',
+          title: '2 credits and scheduled',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) at least four PE courses',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: '4_AND_FITNESSGRAM',
+          title: '4 credits and Fitnessgram OR scheduled',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) at least four credits AND passed the Fitnessgram',
+          grades: {9: false, 10: false, 11: true}
+        },
+        {
+          criteria: '4_AND_SCHED_NO_FITNESSGRAM',
+          title: '4 credits, no Fitnessgram, PE scheduled',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) at least four credits, AND has NOT passed the Fitnessgram AND is scheduled for PE classes',
+          grades: {9: false, 10: false, 11: false}
+        }
+      ],
+      SCI: [
+        {
+          criteria: '2_CREDITS',
+          title: '2 credits of any type',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) two credits of the same science course',
+          grades: {9: true, 10: true, 11: true}
+        },
+        {
+          criteria: '4_CREDITS',
+          title: '4 credits in two areas',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semsters of science courses in two different areas (Life, Physical, one other from Life, Physical, or Other)',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'GRAD',
+          title: "Sci reqmt's satisfied",
+          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semsters of science courses in three areas (Life, Physical, one other from Life, Physical, or Other)',
+          grades: {9: false, 10: false, 11: true}
+        }
+      ],
+      VPA: [
+        {
+          criteria: 'SEM1',
+          title: 'Semester 1',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) the first semester of a VAPA course',
+          grades: {9: false, 10: true, 11: true}
+        },
+        {
+          criteria: 'SEM2',
+          title: 'Semester 2',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) the second semester of a VAPA course whose first semester companion has already been passed, or is scheduled',
+          grades: {9: false, 10: true, 11: true}
+        }
+      ]
+    }
   }
 ]
 

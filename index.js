@@ -1,8 +1,8 @@
 const CONSTANTS = {
   SYSTEM: {
     DEBUG: true,
-    API_URL: 'localhost:3005/',
-    COPYRIGHT: '2017',  
+    API_URL: 'http://localhost:3005/',
+    COPYRIGHT: '2017',
     DB_PREFIX_PS: 'ps_',
     DB_PREFIX_OSPS: 'osps_',
     DB_NAME: 'osps4',

@@ -281,16 +281,16 @@ CONSTANTS.PS_DATA = [
     tablename: 'gpas',
     fields: CONSTANTS.PS_FIELDS.PS_GPA
   },
-  // {
-  //   filename: 'Grades.csv',
-  //   tablename: 'grades',
-  //   fields: CONSTANTS.PS_FIELDS.PS_GRADE
-  // },
-  // {
-  //   filename: 'Schedules.csv',
-  //   tablename: 'schedules',
-  //   fields: CONSTANTS.PS_FIELDS.PS_SCHEDULE
-  // },
+  {
+    filename: 'Grades.csv',
+    tablename: 'grades',
+    fields: CONSTANTS.PS_FIELDS.PS_GRADE
+  },
+  {
+    filename: 'Schedules.csv',
+    tablename: 'schedules',
+    fields: CONSTANTS.PS_FIELDS.PS_SCHEDULE
+  },
   {
     filename: 'Schools.csv',
     tablename: 'schools',

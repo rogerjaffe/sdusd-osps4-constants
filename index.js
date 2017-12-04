@@ -357,25 +357,25 @@ CONSTANTS.SDUSD_AT_RISK = [
           criteria: 'AL1',
           title: 'Am Lit 1',
           help: 'Student has taken or is taking (and presumed to pass) first semester of a course that offers American Literature credit',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AL2',
           title: 'Am Lit 2',
           help: 'Student has taken or is taking (and presumed to pass) second semester of a course that offers American Literature credit',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AC1',
           title: 'Addl Eng 1',
           help: 'Student has taken or is taking (and presumed to pass) first semester of an additional English course',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AC2',
           title: 'Addl Eng 2',
           help: 'Student has taken or is taking (and presumed to pass) second semester of an additional English course',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         }
       ],
       ELE: [
@@ -598,25 +598,25 @@ CONSTANTS.SDUSD_AT_RISK = [
           criteria: 'AL1',
           title: 'Am Lit 1',
           help: 'Student has taken or is taking (and presumed to pass) first semester of a course that offers American Literature credit',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AL2',
           title: 'Am Lit 2',
           help: 'Student has taken or is taking (and presumed to pass) second semester of a course that offers American Literature credit',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AC1',
           title: 'Addl Eng 1',
           help: 'Student has taken or is taking (and presumed to pass) first semester of an additional English course',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         },
         {
           criteria: 'AC2',
           title: 'Addl Eng 2',
           help: 'Student has taken or is taking (and presumed to pass) second semester of an additional English course',
-          grades: {9: false, 10: false, 11: true, 12: true}
+          grades: {9: false, 10: false, 11: false, 12: true}
         }
       ],
       ELE: [

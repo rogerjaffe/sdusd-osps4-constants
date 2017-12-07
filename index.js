@@ -342,13 +342,13 @@ CONSTANTS.SDUSD_AT_RISK = [
           grades: {9: false, 10: true, 11: true, 12: true}
         },
         {
-          criteria: 'AL_AC_1',
+          criteria: 'AL_OR_AC1',
           title: 'Am Lit 1 or Addl Eng 1',
           help: 'Student has taken or is taking (and presumed to pass) first semester of a course that offers American Literature credit OR an additional English course',
           grades: {9: false, 10: false, 11: true, 12: false}
         },
         {
-          criteria: 'AL_AC_2',
+          criteria: 'AL_OR_AC2',
           title: 'Am Lit 2 or Addl Eng 2',
           help: 'Student has taken or is taking (and presumed to pass) second semester of a course that offers American Literature credit OR an additional English course',
           grades: {9: false, 10: false, 11: true, 12: false}

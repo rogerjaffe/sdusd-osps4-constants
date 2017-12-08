@@ -721,6 +721,12 @@ CONSTANTS.SDUSD_AT_RISK = [
           title: 'Integ Math 3B or higher',
           help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3B or equivalent course or a higher level math course',
           grades: {9: false, 10: false, 11: true, 12: true}
+        },
+        {
+          criteria: '_4CREDITS',
+          title: 'At least 4 HS credits',
+          help: 'Student must receive at least 4 credits of mathematics credits in grades 9-12',
+          grades: {9: false, 10: false, 11: true, 12: true}
         }
       ],
       PED: [

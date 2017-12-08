@@ -170,7 +170,8 @@ const CONSTANTS = {
       IM2B: 0x10,
       IM3A: 0x20,
       IM3B: 0x40,
-      COLLEGE: 0x80
+      COLLEGE: 0x80,
+      _4CREDITS: 0x100
     },
     NCR: {
       GRAD: 0x1

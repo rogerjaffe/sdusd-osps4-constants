@@ -160,7 +160,8 @@ const CONSTANTS = {
     LOE: {
       GRAD: 0x1,
       LEVEL4: 0x2,
-      LOTE: 0x4
+      LEVEL2: 0x4,
+      LOTE: 0x8
     },
     MTH: {
       GRAD: 0x1,

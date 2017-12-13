@@ -10,6 +10,14 @@ const CONSTANTS = {
     EMAIL_HOST: 'mail.sandi.net',
     LAST_UPDATE_FILE: 'lastUpdate.txt'
   },
+  CREDIT_CHECK: {
+    CREDIT_THRESHOLDS: {
+      '9': 10,
+      '10': 21,
+      '11': 32,
+      '12': 44
+    }
+  },
   OSPS_DATA: {
     OSPS_TABLE_LIST: ['osps_course_lists'],
     CSV_REQUIREMENT_FLAGS_FILENAME: 'csv_student_data.csv',

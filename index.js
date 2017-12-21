@@ -218,6 +218,86 @@ const CONSTANTS = {
   }
 }
 
+CONSTANTS.UPDATE_TEXT = {
+  ELA: {
+    GRAD: 'Graduation reqmt',
+    EN1: 'English 1',
+    EN2: 'English 2',
+    EN3: 'English 3',
+    EN4: 'English 4',
+    AL1: 'American Lit 1',
+    AL2: 'American Lit 2',
+    AC1: 'Additional Eng 1',
+    AC2: 'Additional Eng 2',
+    AL_OR_AC1: 'Am Lit 1 OR Addl Eng 1',
+    AL_OR_AC2: 'Am Lit 2 OR Addl Eng 2'
+  },
+  ELE: {
+    GRAD: 'Graduation reqmt met',
+    SEM1: 'Semester 1',
+    SEM2: 'Semester 2'
+  },
+  HIS: {
+    GRAD: 'Graduation reqmt met',
+    WH1: 'World History 1',
+    WH2: 'World History 2',
+    US1: 'US History 1',
+    US2: 'US History 2',
+    GOV: 'Government',
+    ECON: 'Economics',
+    GOV_ECON: 'Gov OR Econ'
+  },
+  LOE: {
+    GRAD: 'Graduation reqmt met',
+    LEVEL4: 'World Lang Level 4',
+    LEVEL2: 'World Lang Level 2',
+    LOTE: 'LOTE test'
+  },
+  MTH: {
+    GRAD: 'Graduation reqmt met',
+    IM1A: 'Integrated Math 1A',
+    IM1B: 'Integrated Math 1B',
+    IM2A: 'Integrated Math 2A',
+    IM2B: 'Integrated Math 2B',
+    IM3A: 'Integrated Math 3A',
+    IM3B: 'Integrated Math 3B',
+    COLLEGE: 'College Math',
+    _4CREDITS: '4 credits in HS'
+  },
+  NCR: {
+    GRAD: 'Graduation reqmt met'
+  },
+  OTH: {
+    GRAD: 'Graduation reqmt met'
+  },
+  PED: {
+    GRAD: 'Graduation reqmt met',
+    SEM1: 'Semester 1',
+    SEM2: 'Semester 2',
+    SEM3: 'Semester 3',
+    SEM4: 'Semester 4',
+    SCHEDULED: 'PE scheduled',
+    FITNESSGRAM: 'Fitnessgram'
+  },
+  SCI: {
+    GRAD: 'Graduation reqmt met',
+    BIO: 'Biology',
+    CHE: 'Chemistry',
+    PHY: 'Physics',
+    LIFE: 'Life science',
+    PHYSICAL: 'Physical science',
+    OTHER: 'Other science',
+    _1REQMT: '1 requirement',
+    _2REQMT: '2 requirements',
+    _3REQMT: '3 requirements'
+  },
+  VPA: {
+    GRAD: 'Graduation reqmt met',
+    SEM1: 'Semester 1',
+    SEM2: 'Semester 2'
+  }
+}
+
 CONSTANTS.PERMISSIONS = {
   INDIVIDUAL: {
     PROFILE: 0x1,

@@ -220,7 +220,7 @@ const CONSTANTS = {
 
 CONSTANTS.UPDATE_TEXT = {
   ELA: {
-    GRAD: 'Graduation reqmt',
+    GRAD: 'Graduation requirements',
     EN1: 'English 1',
     EN2: 'English 2',
     EN3: 'English 3',
@@ -233,12 +233,12 @@ CONSTANTS.UPDATE_TEXT = {
     AL_OR_AC2: 'Am Lit 2 OR Addl Eng 2'
   },
   ELE: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     SEM1: 'Semester 1',
     SEM2: 'Semester 2'
   },
   HIS: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     WH1: 'World History 1',
     WH2: 'World History 2',
     US1: 'US History 1',
@@ -248,13 +248,13 @@ CONSTANTS.UPDATE_TEXT = {
     GOV_ECON: 'Gov OR Econ'
   },
   LOE: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     LEVEL4: 'World Lang Level 4',
     LEVEL2: 'World Lang Level 2',
     LOTE: 'LOTE test'
   },
   MTH: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     IM1A: 'Integrated Math 1A',
     IM1B: 'Integrated Math 1B',
     IM2A: 'Integrated Math 2A',
@@ -265,13 +265,13 @@ CONSTANTS.UPDATE_TEXT = {
     _4CREDITS: '4 credits in HS'
   },
   NCR: {
-    GRAD: 'Graduation reqmt met'
+    GRAD: 'Graduation requirements'
   },
   OTH: {
-    GRAD: 'Graduation reqmt met'
+    GRAD: 'Graduation requirements'
   },
   PED: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     SEM1: 'Semester 1',
     SEM2: 'Semester 2',
     SEM3: 'Semester 3',
@@ -280,7 +280,7 @@ CONSTANTS.UPDATE_TEXT = {
     FITNESSGRAM: 'Fitnessgram'
   },
   SCI: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     BIO: 'Biology',
     CHE: 'Chemistry',
     PHY: 'Physics',
@@ -292,7 +292,7 @@ CONSTANTS.UPDATE_TEXT = {
     _3REQMT: '3 requirements'
   },
   VPA: {
-    GRAD: 'Graduation reqmt met',
+    GRAD: 'Graduation requirements',
     SEM1: 'Semester 1',
     SEM2: 'Semester 2'
   }

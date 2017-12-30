@@ -9,7 +9,8 @@ const CONSTANTS = {
     DB_NAME: 'osps4',
     EMAIL_LOG_TO: 'rjaffe@sandi.net',
     EMAIL_HOST: 'mail.sandi.net',
-    LAST_UPDATE_FILE: 'lastUpdate.txt'
+    LAST_UPDATE_FILE: 'lastUpdate.txt',
+    COURSE_UNDER_REVIEW_CONTACT: 'Jason Maher at jmaher@sandi.net'
   },
   CREDIT_CHECK: {
     CREDIT_THRESHOLDS: {

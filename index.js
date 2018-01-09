@@ -462,6 +462,14 @@ CONSTANTS.PS_DATA = [
   }
 ]
 
+CONSTANTS.GUARDIAN_LANGUAGES = {
+  '00': 'en',
+  '01': 'es',
+  '05': 'tl',
+  '11': 'ar',
+  '60': 'so'
+}
+
 CONSTANTS.SDUSD_AT_RISK = [
   {
     id: -1,

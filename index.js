@@ -10,7 +10,8 @@ const CONSTANTS = {
     EMAIL_LOG_TO: 'rjaffe@sandi.net',
     EMAIL_HOST: 'mail.sandi.net',
     LAST_UPDATE_FILE: 'lastUpdate.txt',
-    COURSE_UNDER_REVIEW_CONTACT: 'Jason Maher at jmaher@sandi.net'
+    COURSE_UNDER_REVIEW_CONTACT: 'Jason Maher at jmaher@sandi.net',
+    MAX_STUDENTS_TO_SHOW_IN_COURSE: 200
   },
   CREDIT_CHECK: {
     CREDIT_THRESHOLDS: {

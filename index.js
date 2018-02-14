@@ -78,7 +78,8 @@ const CONSTANTS = {
       'replaces_equivalent_course',
       'exclude_from_suppression',
       'sdusd',
-      'weighted_grade_scale'
+      'weighted_grade_scale',
+      'course_name'
     ],
 
     PS_SCHEDULE: [

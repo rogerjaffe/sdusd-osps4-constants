@@ -950,4 +950,24 @@ CONSTANTS.SDUSD_AT_RISK = [
   }
 ]
 
+CONSTANTS.LIVING_SITUATION_CODES = {
+  foster: {
+    21: 'Group home (FGH) (FFA)',
+    22: 'Family Home (FFH)',
+    50: 'Formal Kinship Care (including NREFM)'
+  },
+  homeless: {
+    40: 'Unsheltered',
+    41: 'Sheltered',
+    42: 'Hotel/Motel',
+    43: 'Living with someone / Doubling up'
+  },
+  other: {
+    10: 'International exchange',
+    23: 'Hospital (not state hospital)',
+    24: 'Residential facility',
+    28: 'Other'
+  }
+}
+
 module.exports = CONSTANTS

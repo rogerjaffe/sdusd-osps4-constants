@@ -128,7 +128,12 @@ const CONSTANTS = {
       'zip',
       'transcript_notes',
       'sped',
-      'non_diploma'
+      'non_diploma',
+      'foster_living_situation',
+      'homeless_living_situation',
+      'unaccompanied_youth',
+      'runaway_youth',
+      'other_living_situation'
     ],
 
     PS_USER: [

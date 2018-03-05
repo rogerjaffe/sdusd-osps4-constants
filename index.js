@@ -672,7 +672,7 @@ CONSTANTS.SDUSD_AT_RISK = [
         },
         {
           criteria: '4_AND_FITNESSGRAM_OR_SCHEDULED',
-          title: '4 credits and Fitnessgram passed OR PE class is scheduled',
+          title: '4 credits passed and/or scheduled',
           help: 'Student has either passed or is scheduled for (and presumed to pass) at least four credits AND passed the Fitnessgram',
           grades: {9: false, 10: false, 11: true, 12: true}
         }

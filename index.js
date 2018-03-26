@@ -22,7 +22,7 @@ const CONSTANTS = {
     }
   },
   OSPS_DATA: {
-    OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config'],
+    OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config','osps_ccte_pathways'],
     CSV_REQUIREMENT_FLAGS_FILENAME: 'csv_student_data.csv',
     CSV_REQUIREMENT_FLAGS_FIELDS_FILENAME: 'csv_student_data_fields.csv',
     CSV_JSON_FILENAME: 'csv_json.csv',

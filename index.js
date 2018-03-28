@@ -21,6 +21,11 @@ const CONSTANTS = {
       '12': 44
     }
   },
+  CCTE: {
+    NOT_COMPLETE: 0,
+    ATTEMPTED: 1,
+    COMPLETE: 2
+  },
   OSPS_DATA: {
     OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config','osps_ccte_pathways'],
     CSV_REQUIREMENT_FLAGS_FILENAME: 'csv_student_data.csv',

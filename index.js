@@ -21,10 +21,15 @@ const CONSTANTS = {
       '12': 44
     }
   },
-  CCTE: {
-    NOT_COMPLETE: 0,
-    ATTEMPTED: 1,
-    COMPLETE: 2
+  CCTE_FLAGS: {
+    INT1_ATTEMPTED: 0x1,
+    INT1_COMPLETED: 0x2,
+    INT2_ATTEMPTED: 0x4,
+    INT2_COMPLETED: 0x8,
+    CAP1_ATTEMPTED: 0x10,
+    CAP1_COMPLETED: 0x20,
+    CAP2_ATTEMPTED: 0x40,
+    CAP2_COMPLETED: 0x80
   },
   OSPS_DATA: {
     OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config','osps_ccte_pathways'],

@@ -30,7 +30,7 @@ const CONSTANTS = {
     }
   },
   OSPS_DATA: {
-    OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config','osps_ccte_pathways'],
+    OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config'/*,'osps_ccte_pathways'*/],
     CSV_REQUIREMENT_FLAGS_FILENAME: 'csv_student_data.csv',
     CSV_REQUIREMENT_FLAGS_FIELDS_FILENAME: 'csv_student_data_fields.csv',
     CSV_JSON_FILENAME: 'csv_json.csv',
@@ -982,16 +982,16 @@ CONSTANTS.LIVING_SITUATION_CODES = {
 
 CONSTANTS.CCTE.PATHWAYS = [
   {
-    NAME: "Engineering",
-    INTERMEDIATE: {
-      COURSE_LIST: [
+    name: "Engineering",
+    intermediate: {
+      course_list: [
         ['8847','8848'] // POE
       ],
       ATTEMPTED_FLAG: CONSTANTS.CCTE.FLAGS.INTERMEDIATE_ATTEMPTED,
       COMPLETED_FLAG: CONSTANTS.CCTE.FLAGS.INTERMEDIATE_COMPLETED
     },
-    CAPSTONE: {
-      COURSE_LIST: [
+    capstone: {
+      course_list: [
         ['8957','8958'], // DE
         ['8404','8405']  // EDD
       ],
@@ -1000,16 +1000,16 @@ CONSTANTS.CCTE.PATHWAYS = [
     }
   },
   {
-    NAME: "Comp Sci / Info Tech",
-    INTERMEDIATE: {
-      COURSE_LIST: [
+    name: "Comp Sci / Info Tech",
+    intermediate: {
+      course_list: [
         ['4461','4462'] // APCSA
       ],
       ATTEMPTED_FLAG: CONSTANTS.CCTE.FLAGS.INTERMEDIATE_ATTEMPTED,
       COMPLETED_FLAG: CONSTANTS.CCTE.FLAGS.INTERMEDIATE_COMPLETED
     },
-    CAPSTONE: {
-      COURSE_LIST: [
+    capstone: {
+      course_list: [
         ['4413','4414'], // CS 3/4
       ],
       ATTEMPTED_FLAG: CONSTANTS.CCTE.FLAGS.CAPSTONE_ATTEMPTED,

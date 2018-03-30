@@ -22,6 +22,7 @@ const CONSTANTS = {
     }
   },
   CCTE: {
+    NOT_COMPLETED: 0,
     NOT_ATTEMPTED: 0,
     ATTEMPTED: 1,
     COMPLETED: 2

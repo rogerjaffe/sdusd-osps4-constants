@@ -980,41 +980,47 @@ CONSTANTS.LIVING_SITUATION_CODES = {
 CONSTANTS.CCTE.PATHWAYS = [
   {
     name: "Engineering",
-    introductory: [
-      ['3657','3658'] // ID
-    ],
-    intermediate: [
-      ['8847','8848'] // POE
-    ],
-    capstone: [
-      ['8957','8958'], // DE
-      ['8404','8405']  // EDD
-    ],
+    levels: {
+      introductory: [
+        ['3657', '3658'] // ID
+      ],
+      intermediate: [
+        ['8847', '8848'] // POE
+      ],
+      capstone: [
+        ['8957', '8958'], // DE
+        ['8404', '8405']  // EDD
+      ],
+    }
   },
   {
     name: "Comp Sci / Info Tech (new)",
-    introductory: [
-      ['4463','4464']
-    ],
-    intermediate: [
-      ['4489','4490'], // CSE
-      ['4461','4462']  // APCSA
-    ],
-    capstone: [
-      ['4413','4414'], // CS 3/4
-    ],
+    levels: {
+      introductory: [
+        ['4463', '4464']
+      ],
+      intermediate: [
+        ['4489', '4490'], // CSE
+        ['4461', '4462']  // APCSA
+      ],
+      capstone: [
+        ['4413', '4414'], // CS 3/4
+      ],
+    }
   },
   {
     name: "Comp Sci / Info Tech (old)",
-    introductory: [
-      ['3657','3658']
-    ],
-    intermediate: [
-      ['4489','4490'], // CSE
-    ],
-    capstone: [
-      ['4461','4462'], // APCSA
-    ],
+    levels: {
+      introductory: [
+        ['3657', '3658']
+      ],
+      intermediate: [
+        ['4489', '4490'], // CSE
+      ],
+      capstone: [
+        ['4461', '4462'], // APCSA
+      ],
+    }
   },
 ]
 

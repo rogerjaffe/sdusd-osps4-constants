@@ -980,46 +980,74 @@ CONSTANTS.LIVING_SITUATION_CODES = {
 
 CONSTANTS.CCTE.PATHWAYS = [
   {
-    name: "Engineering",
+    name: "Engineering Design",
     levels: {
       introductory: [
-        ['3657', '3658'] // ID
+        ['3657', '3658'], // ID
+        ['6240', '6241']  // Green up and Go
       ],
       intermediate: [
-        ['8847', '8848'] // POE
+        ['8847', '8848'], // POE
+        ['3661', '3662']  // Design Tech SL IB 12
       ],
       capstone: [
+        ['3586', '3587'], // CIM
         ['8957', '8958'], // DE
-        ['8404', '8405']  // EDD
+        ['8406', '8407'], // EDD34
+        ['8404', '8405']  // EDD12
       ],
     }
   },
   {
-    name: "Comp Sci / Info Tech (new)",
+    name: "Architectural Design",
     levels: {
       introductory: [
-        ['4463', '4464']
+        ['3657', '3658'], // ID
+        ['6240', '6241'] // Green up and Go
       ],
       intermediate: [
-        ['4489', '4490'], // CSE
-        ['4461', '4462']  // APCSA
+        ['8171', '8172'] // CEA12
       ],
       capstone: [
-        ['4413', '4414'], // CS 3/4
+        ['8173', '8174'], // CEA34
       ],
     }
   },
   {
-    name: "Comp Sci / Info Tech (old)",
+    name: "Information and Communication Technologies",
     levels: {
       introductory: [
-        ['3657', '3658']
+        ['3705', '3706'] // FoundIT
       ],
       intermediate: [
-        ['4489', '4490'], // CSE
+        ['4465', '4466'] // IT Essentials
       ],
       capstone: [
+        ['4475', '4476'], // Internet Engineering
+      ],
+    }
+  },
+  {
+    name: "Software and Systems Development",
+    levels: {
+      introductory: [
+        ['3705', '3706'] // FoundIT
+      ],
+      intermediate: [
+        ['4463', '4464'], // CSP
+      ],
+      capstone: [
+        ['4411', '4412'], // CS12
+        ['4413', '4414'], // CS34
         ['4461', '4462'], // APCSA
+        ['8931', '8932'], // Website Design 12
+        ['8933', '8934'], // Website Design 34
+        ['4473', '4474'], // Game Design 12
+        ['4477', '4478'], // Game Design 34
+        ['8291', '8292'], // GIS Glob Tech 12
+        ['8293', '8294'], // GIS Glob Tech 34
+        ['4493', '4494'], // InfTechGlobSoc SL 12
+        ['4495', '4496'], // InfTechGlobSoc HL12
       ],
     }
   },

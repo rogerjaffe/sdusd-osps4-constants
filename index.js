@@ -25,7 +25,9 @@ const CONSTANTS = {
     NOT_COMPLETED: 0,
     NOT_ATTEMPTED: 0,
     ATTEMPTED: 1,
-    COMPLETED: 2
+    COMPLETED: 2,
+    SDUSD_SATISFIED: 0x1,
+    CALPADS_SATISFIED: 0x2
   },
   OSPS_DATA: {
     OSPS_TABLE_LIST: ['osps_course_lists','osps_users_config'/*,'osps_ccte_pathways'*/],
@@ -980,6 +982,202 @@ CONSTANTS.LIVING_SITUATION_CODES = {
 
 CONSTANTS.CCTE.PATHWAYS = [
   {
+    sector: "Arts, Media, and Entertainment",
+    name: "Design, Visual, and Media Arts",
+    levels: {
+      introductory: [
+        ['3639', '3640'], // Computer Animation
+        ['3645', '3646'], // Found in Visual Art & Design
+        ['3765', '3766'], // Intro to Music Production Tech
+        ['3691', '3692'], // Photography 1,2
+        ['3693', '3694'], // Photography 3,4
+        ['8373', '8374'], // Video Production 1,2 (also 8385 VP 1-2)
+      ],
+      intermediate: [
+        ['8511', '8512'], // CGD 1,2 (also 8633 CGD 1-2)
+        ['8091', '8092'], // Dig Art Mixed Media 3,4
+        ['8839', '8840'], // Mult Med Prod 1,2 (see 8572 MMP 1-2)
+        ['8105', '8106'], // Phot Imaging 1,2
+      ],
+      capstone: [
+        ['8513', '8514'], // CGD 3,4 (also 8634 CGD 3-4)
+        ['8093', '8094'], // Dig Art Mixed Media 3,4
+        ['8841', '8842'], // Mult Med Prod 3,4 (see 8573 MMP 3-4)
+        ['8107', '8108'], // Phot Imaging 3,4
+      ],
+    }
+  },
+  {
+    sector: "Arts, Media, and Entertainment",
+    name: "Production and Managerial Arts",
+    levels: {
+      introductory: [
+        ['8373', '8374'], // Video Production 1,2
+        ['3639', '3640'], // Computer Animation
+        ['1413', '1414'], // Tech Theater 1,2
+        ['0683', '0684'], // Artist in Residence 1,2
+      ],
+      intermediate: [
+        ['8432', '8433'], // Broadcast Journalism 1,2
+        ['8375', '8376'], // Video Production 3,4
+        ['1462', '1463'], // Technical Theater 3,4
+        ['8691', '8692'], // Arts Mgmt 1,2
+      ],
+      capstone: [
+        ['8434', '8435'], // Broadcast Journalism 3,4
+        ['8239', '8240'], // Cinematic Arts 1,2
+        ['0685', '0686'], // Theatrical Management & Design 1,2
+        ['8693', '8694'], // Arts Mgmt 3,4
+      ],
+    }
+  },
+  {
+    sector: "Arts, Media, and Entertainment",
+    name: "Performing Arts",
+    levels: {
+      introductory: [
+        ['4871', '4872'], // UCCI Language Takes Stage 1,2
+      ],
+      intermediate: [
+        ['4875', '4876'], // UCCI Literature Arts Civic Action 1,2
+      ],
+      capstone: [
+        ['4877', '4878'], // UCCI Social Action Theater 1,2
+      ],
+    }
+  },
+  {
+    sector: "Building and Construction Trades",
+    name: "Residential and Commercial Construction",
+    levels: {
+      introductory: [
+        ['3763', '3764'], // Intro to Green Tech 1,2
+        ['3651', '3652'], // Construction Tech 1,2
+      ],
+      intermediate: [
+        ['8827', '8828'], // Fine Woodworking 1,2 (also 8568 FW 1-2)
+        ['3653', '3654'], // Construction Tech 3,4
+      ],
+      capstone: [
+        ['3588', '3589'], // UCCI Multicraft Core Curr Building Scaled Structures 1,2
+        ['8884', '8885'], // Construction, General 1,2 (also 8823 C,G 1-2)
+        ['8886', '8887'], // Construction, General 3,4
+      ],
+    }
+  },
+  {
+    sector: "Business and Finance",
+    name: "Business Management",
+    levels: {
+      introductory: [
+        ['0514', '0515'], // Business 100 1,2
+        ['0731', '0732'], // Accounting 1,2
+        ['0723', '0724'], // Comp App in Business 1,2
+      ],
+      intermediate: [
+        ['8663', '8664'], // Bus Mgmt Own 1,2 (also 8650 BMO1-2)
+        ['0561', '0562'], // Bus Law 1,2
+        ['0591', '0592'], // Bus Bus Mgmt HL1 IB 1,2
+      ],
+      capstone: [
+        ['8666', '8667'], // Bus Mgmt Own 3,4
+        ['0589', '0590'], // Bus Mgmt SL1 1,2
+        ['0594', '0595'], // Bus Bus Mgmt HL1 IB 3,4
+      ],
+    }
+  },
+  {
+    sector: "Business and Finance",
+    name: "Financial Services",
+    levels: {
+      introductory: [
+        ['0514', '0515'], // Business 100 1,2
+        ['0731', '0732'], // Accounting 1,2
+        ['0723', '0724'], // Comp App in Business 1,2
+      ],
+      intermediate: [
+        ['8603', '8604'], // Adv Acctg 1,2
+        ['0733', '0734'], // Acctg 3,4
+        ['0569', '0570'], // Econ and Finance 1,2
+      ],
+      capstone: [
+        ['8609', '8610'], // Bus and Financial Mkts 1,2
+        ['8611', '8612'], // Bus and Financial Mkts 3,4
+        ['8605', '8606'], // Adv Acctg 3,4
+      ],
+    }
+  },
+  {
+    sector: "Education, Child Development and Family Services",
+    name: "Child Development",
+    levels: {
+      introductory: [
+        ['1171', '1172'], // Inf Todd Dev 1,2
+        ['1154', '1155'], // Hum Psych and Fam Soc 1,2
+      ],
+      intermediate: [
+        ['1175', '1176'], // Inf Todd Dev Lab 1,2
+        ['8796', '8797'], // Dev Psych of Children 1,2
+        ['8720', '8720'], // Dev Psych of Children 1-2
+      ],
+      capstone: [
+        ['8798', '8799'], // Dev Psy Child 3,4
+        ['8721', '8721'], // Dev Psy Child 3-4
+        ['1177', '1178'], // Inf Todd Dev Lab 3,4
+        ['1179', '1179'], // Inf Todd Dev Lab 5,6
+        ['1181', '1180'], // Inf Todd Dev Lab 7,8
+      ],
+    }
+  },
+  {
+    sector: "Education, Child Development and Family Services",
+    name: "Education",
+    levels: {
+      introductory: [
+        ['1171', '1172'], // Inf Todd Dev 1,2
+        ['1154', '1155'], // Hum Psych and Fam Soc 1,2
+      ],
+      intermediate: [
+        ['8784', '8785'], // Int Tch Learning 1,2
+      ],
+      capstone: [
+        ['8786', '8787'], // Int Tch Learning 3,4
+      ],
+    }
+  },
+  {
+    sector: "Education, Child Development and Family Services",
+    name: "Family and Human Services",
+    levels: {
+      introductory: [
+        ['1154', '1155'], // Hum Psych and Fam Soc 1,2
+      ],
+      intermediate: [
+        ['8181', '8182'], // Adv Fam Soc 1,2
+      ],
+      capstone: [
+        ['8183', '8183'], // Adv Fam Soc 3,4
+      ],
+    }
+  },
+  {
+    sector: "Engineering and Architecture",
+    name: "Architectural Design",
+    levels: {
+      introductory: [
+        ['3657', '3658'], // ID
+        ['6240', '6241'] // Green up and Go
+      ],
+      intermediate: [
+        ['8171', '8172'] // CEA12
+      ],
+      capstone: [
+        ['8173', '8174'], // CEA34
+      ],
+    }
+  },
+  {
+    sector: "Engineering and Architecture",
     name: "Engineering Design",
     levels: {
       introductory: [
@@ -999,22 +1197,87 @@ CONSTANTS.CCTE.PATHWAYS = [
     }
   },
   {
-    name: "Architectural Design",
+    sector: "Health Science and Medical Technology",
+    name: "Biotechnology",
     levels: {
       introductory: [
-        ['3657', '3658'], // ID
-        ['6240', '6241'] // Green up and Go
+        ['3005', '3006'], // Anat Phys for Health Careers 1,2
       ],
       intermediate: [
-        ['8171', '8172'] // CEA12
+        ['8704', '8705'], // Biotechnology 1,2
+        ['6458', '6459'], // Biotechnology 1,2
+        ['xxxx', 'xxxx'], // Pr of Biomedical Sci 1,2
       ],
       capstone: [
-        ['8173', '8174'], // CEA34
+        ['8730', '8731'], // Biotechnology 3,4
+        ['8265', '8266'], // Medical Interventions 1,2
+        ['8267', '8268'], // Medical Interventions 3,4
       ],
     }
   },
   {
-    name: "Information and Communication Technologies",
+    sector: "Health Science and Medical Technology",
+    name: "Patient Care",
+    levels: {
+      introductory: [
+        ['3005', '3006'], // Anat Phys for Health Careers 1,2
+      ],
+      intermediate: [
+        ['3313', '3314'], // Human Body Systems 1,2
+        ['6486', '6487'], // Human Body Systems 1,2
+        ['3007', '3008'], // Anat Phys for Health Careers 3,4
+      ],
+      capstone: [
+        ['8335', '8336'], // Biomedical Innovations 1,2
+        ['8337', '8338'], // Biomedical Innovations 3,4
+        ['8271', '8272'], // Sports Med 1,2
+        ['8273', '8274'], // Sports Med 3,4
+        ['8424', '8425'], // Healthcare Essentials 1,2
+        ['8426', '8427'], // Healthcare Essentials 3,4
+      ],
+    }
+  },
+  {
+    sector: "Hospitality, Tourism, and Recreating",
+    name: "Food Service and Hospitality",
+    levels: {
+      introductory: [
+        ['1165', '1166'], // Food prep and nutrition 1,2
+        ['1169', '1169'], // Career and Life Management 1
+        ['1163', '1163'], // Career and Life Management 2
+        ['1198', '1199'], // Intro to Hospitality
+      ],
+      intermediate: [
+        ['8760', '8761'], // Cul Arts and Mgmt 1,2
+        ['1167', '1168'], // Nutrition 1,2
+      ],
+      capstone: [
+        ['8762', '8763'], // Cul Arts and Mgmt 3,4
+        ['8764', '8765'], // Cul Arts and Mgmt 5,6
+      ],
+    }
+  },
+  {
+    sector: "Hospitality, Tourism, and Recreating",
+    name: "Hospitality Tourism and Recreation",
+    levels: {
+      introductory: [
+        ['1198', '1199'], // Intro to Hospitality
+        ['1165', '1166'], // Food prep and nutrition 1,2
+        ['1169', '1169'], // Career and Life Management 1
+        ['1163', '1163'], // Career and Life Management 2
+      ],
+      intermediate: [
+        ['8481', '8482'], // Concepts in Hosp and Tourism 1,2
+      ],
+      capstone: [
+        ['8483', '8484'], // Concepts in Hosp and Tourism 3,4
+      ],
+    }
+  },
+  {
+    sector: "Information and Communication Technologies",
+    name: "Networking",
     levels: {
       introductory: [
         ['3705', '3706'] // FoundIT
@@ -1028,6 +1291,7 @@ CONSTANTS.CCTE.PATHWAYS = [
     }
   },
   {
+    sector: "Information and Communication Technologies",
     name: "Software and Systems Development",
     levels: {
       introductory: [
@@ -1048,6 +1312,153 @@ CONSTANTS.CCTE.PATHWAYS = [
         ['8293', '8294'], // GIS Glob Tech 34
         ['4493', '4494'], // InfTechGlobSoc SL 12
         ['4495', '4496'], // InfTechGlobSoc HL12
+      ],
+    }
+  },
+  {
+    sector: "Manufacturing and Product Development",
+    name: "Graphic Production Technologies",
+    levels: {
+      introductory: [
+        ['3691', '3692'], // Photography 1,2
+        ['3621', '3622'], // Graphic Comm Tech 1,2
+      ],
+      intermediate: [
+        ['8882', '8883'], // Screen Printing 1,2
+        ['3623', '3624'], // Graphic Comm Tech 3,4
+      ],
+      capstone: [
+        ['8851', '8852'], // Screen Printing 3,4
+      ],
+    }
+  },
+  {
+    sector: "Manufacturing and Product Development",
+    name: "Machining and Forming Technologies",
+    levels: {
+      introductory: [
+        ['3681', '3682'], // Manufacturing Technology 1,2
+      ],
+      intermediate: [
+        ['3683', '3684'], // Manufacturing Technology 3,4
+      ],
+      capstone: [
+        ['8812', '8813'], // Machine Tool Technology 1,2
+        ['8814', '8815'], // Machine Tool Technology 3,4
+      ],
+    }
+  },
+  {
+    sector: "Manufacturing and Product Development",
+    name: "Product Innovation and Design",
+    levels: {
+      introductory: [
+        ['3591', '3592'], // Intro to Fabrication Des 1,2
+      ],
+      intermediate: [
+        ['8311', '8312'], // Fabrication and Des 1,2
+      ],
+      capstone: [
+        ['8313', '8314'], // Fabrication and Des 3,4
+      ],
+    }
+  },
+  {
+    sector: "Marketing, Sales, and Service",
+    name: "Marketing",
+    levels: {
+      introductory: [
+        ['0801', '0802'], // Marketing 1,2
+      ],
+      intermediate: [
+        ['0803', '0804'], // Marketing 3,4
+        ['8277', '8278'], // Modern Media Markets 1,2
+        ['8490', '8491'], // Event Marketing 1,2
+      ],
+      capstone: [
+        ['8279', '8280'], // Modern Media Markets 3,4
+        ['8492', '8493'], // Event Marketing 3,4
+      ],
+    }
+  },
+  {
+    sector: "Public Services",
+    name: "Emergency Response",
+    levels: {
+      introductory: [
+        ['0671', '0672'], // Fire Prot Tech 1,2
+      ],
+      intermediate: [
+        ['8253', '8254'], // Fire Prot Tech 3,4
+      ],
+      capstone: [
+        ['8255', '8256'], // Fire Prot Tech 5,6
+        ['8259', '8280'], // Fire Prot Tech Comm Class 7,8
+      ],
+    }
+  },
+  {
+    sector: "Public Services",
+    name: "Legal Practices",
+    levels: {
+      introductory: [
+        ['0503', '0504'], // Intro to Criminal Justice Careers 1,2
+        ['3767', '3768'], // Intro to to law 1,2
+      ],
+      intermediate: [
+        ['6694', '6695'], // CPA Criminal justice 1,2
+        ['8393', '8394'], // Foundations of Legal Practice 1,2
+      ],
+      capstone: [
+        ['8395', '8396'], // Foundations of Legal Practice 3,4
+        ['8397', '8398'], // Foundations of Legal Practice Comm Class 5,6
+      ],
+    }
+  },
+  {
+    sector: "Public Services",
+    name: "Public Safety",
+    levels: {
+      introductory: [
+        ['0503', '0504'], // Intro to Criminal Justice Careers 1,2
+      ],
+      intermediate: [
+        ['8342', '8343'], // Criminal Justice Careers 1,2
+      ],
+      capstone: [
+        ['8344', '8345'], // Criminal Justice Careers 3,4
+      ],
+    }
+  },
+  {
+    sector: "Transportation",
+    name: "Structural Repair and Refinishing",
+    levels: {
+      introductory: [
+        ['3578', '3579'], // Intro to Auto Body 1,2
+      ],
+      intermediate: [
+        ['8540', '8541'], // Auto Body Repair Ref 1,2
+        ['8808', '8808'], // Auto Body Repair Ref 1-2
+      ],
+      capstone: [
+        ['8542', '8543'], // Auto Body Repair Ref 3,4
+      ],
+    }
+  },
+  {
+    sector: "Transportation",
+    name: "Systems Diagnostics, Service, and Repair",
+    levels: {
+      introductory: [
+        ['3708', '3710'], // Foundations of Transportation 1,2
+      ],
+      intermediate: [
+        ['8304', '8305'], // Auto Tech 1,2
+      ],
+      capstone: [
+        ['8306', '8307'], // Auto Tech 3,4
+        ['8308', '8309'], // Auto Tech Comm Class 5,6
       ],
     }
   },

@@ -1027,20 +1027,20 @@ CONSTANTS.CCTE.PATHWAYS = [
         ['3691', '3692'], // Photography 1,2
         ['3693', '3694'], // Photography 3,4
         ['8373', '8374'], // Video Production 1,2 (also 8385 VP 1-2)
-        ['8385', '8385'], // Video Production 1-2
+        // ['8385', '8385'], // Video Production 1-2
       ],
       intermediate: [
         ['8511', '8512'], // CGD 1,2 (also 8633 CGD 1-2)
         ['8091', '8092'], // Dig Art Mixed Media 3,4
         ['8839', '8840'], // Mult Med Prod 1,2 (see 8572 MMP 1-2)
-        ['8572', '8572'], // Mult Med Prod 1-2
+        // ['8572', '8572'], // Mult Med Prod 1-2
         ['8105', '8106'], // Phot Imaging 1,2
       ],
       capstone: [
         ['8513', '8514'], // CGD 3,4 (also 8634 CGD 3-4)
         ['8093', '8094'], // Dig Art Mixed Media 3,4
         ['8841', '8842'], // Mult Med Prod 3,4 (see 8573 MMP 3-4)
-        ['8573', '8573'], // Mult Med Prod 3-4
+        // ['8573', '8573'], // Mult Med Prod 3-4
         ['8107', '8108'], // Phot Imaging 3,4
       ],
     }
@@ -1094,13 +1094,13 @@ CONSTANTS.CCTE.PATHWAYS = [
       ],
       intermediate: [
         ['8827', '8828'], // Fine Woodworking 1,2 (also 8568 FW 1-2)
-        ['8568', '8568'], // Fine Woodworking 1-2
+        // ['8568', '8568'], // Fine Woodworking 1-2
         ['3653', '3654'], // Construction Tech 3,4
       ],
       capstone: [
         ['3588', '3589'], // UCCI Multicraft Core Curr Building Scaled Structures 1,2
         ['8884', '8885'], // Construction, General 1,2 (also 8823 C,G 1-2)
-        ['8823', '8823'], // Construction, General 1-2
+        // ['8823', '8823'], // Construction, General 1-2
         ['8886', '8887'], // Construction, General 3,4
       ],
     }
@@ -1116,7 +1116,7 @@ CONSTANTS.CCTE.PATHWAYS = [
       ],
       intermediate: [
         ['8663', '8664'], // Bus Mgmt Own 1,2 (also 8650 BMO1-2)
-        ['8650', '8650'], // Bus Mgmt Own 1-2
+        // ['8650', '8650'], // Bus Mgmt Own 1-2
         ['0561', '0562'], // Bus Law 1,2
         ['0591', '0592'], // Bus Bus Mgmt HL1 IB 1,2
       ],
@@ -1159,11 +1159,11 @@ CONSTANTS.CCTE.PATHWAYS = [
       intermediate: [
         ['1175', '1176'], // Inf Todd Dev Lab 1,2
         ['8796', '8797'], // Dev Psych of Children 1,2
-        ['8720', '8720'], // Dev Psych of Children 1-2
+        // ['8720', '8720'], // Dev Psych of Children 1-2
       ],
       capstone: [
         ['8798', '8799'], // Dev Psy Child 3,4
-        ['8721', '8721'], // Dev Psy Child 3-4
+        // ['8721', '8721'], // Dev Psy Child 3-4
         ['1177', '1178'], // Inf Todd Dev Lab 3,4
         ['1179', '1179'], // Inf Todd Dev Lab 5,6
         ['1181', '1180'], // Inf Todd Dev Lab 7,8
@@ -1247,7 +1247,7 @@ CONSTANTS.CCTE.PATHWAYS = [
       intermediate: [
         ['8704', '8705'], // Biotechnology 1,2
         ['6458', '6459'], // Biotechnology 1,2
-        ['xxxx', 'xxxx'], // Pr of Biomedical Sci 1,2
+        // ['xxxx', 'xxxx'], // Pr of Biomedical Sci 1,2
       ],
       capstone: [
         ['8730', '8731'], // Biotechnology 3,4
@@ -1480,7 +1480,7 @@ CONSTANTS.CCTE.PATHWAYS = [
       ],
       intermediate: [
         ['8540', '8541'], // Auto Body Repair Ref 1,2
-        ['8808', '8808'], // Auto Body Repair Ref 1-2
+        // ['8808', '8808'], // Auto Body Repair Ref 1-2
       ],
       capstone: [
         ['8542', '8543'], // Auto Body Repair Ref 3,4

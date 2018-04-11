@@ -626,38 +626,50 @@ CONSTANTS.SDUSD_AT_RISK = [
       MTH: [
         {
           criteria: 'IM1A',
-          title: 'Integ Math 1A or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1A or equivalent course or a higher level math course',
+          // title: 'Integ Math 1A or higher',
+          // help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1A or equivalent course or a higher level math course',
+          title: 'Integ Math 1A',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1A or equivalent course',
           grades: {9: true, 10: true, 11: true, 12: true}
         },
         {
           criteria: 'IM1B',
-          title: 'Integ Math 1B or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1B or equivalent course or a higher level math course',
+          // title: 'Integ Math 1B or higher',
+          // help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1B or equivalent course or a higher level math course',
+          title: 'Integ Math 1B',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 1B or equivalent course',
           grades: {9: true, 10: true, 11: true, 12: true}
         },
         {
           criteria: 'IM2A',
-          title: 'Integ Math 2A or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2A or equivalent course or a higher level math course',
+          // title: 'Integ Math 2A or higher',
+          // help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2A or equivalent course or a higher level math course',
+          title: 'Integ Math 2A',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2A or equivalent course',
           grades: {9: false, 10: true, 11: true, 12: true}
         },
         {
           criteria: 'IM2B',
-          title: 'Integ Math 2B or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2B or equivalent course or a higher level math course',
+          // title: 'Integ Math 2B or higher',
+          // help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2B or equivalent course or a higher level math course',
+          title: 'Integ Math 2B',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 2B or equivalent course',
           grades: {9: false, 10: true, 11: true, 12: true}
         },
         {
           criteria: 'IM3A',
-          title: 'Integ Math 3A or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3A or equivalent course or a higher level math course',
+          // title: 'Integ Math 3A or higher',
+          // help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3A or equivalent course or a higher level math course',
+          title: 'Integ Math 3A',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3A or equivalent course',
           grades: {9: false, 10: false, 11: true, 12: true}
         },
         {
+          // criteria: 'IM3B',
+          // title: 'Integ Math 3B or higher',
           criteria: 'IM3B',
-          title: 'Integ Math 3B or higher',
-          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3B or equivalent course or a higher level math course',
+          title: 'Integ Math 3B',
+          help: 'Student has taken or is taking (and presumed to pass) Integrated Math 3B or equivalent course',
           grades: {9: false, 10: false, 11: true, 12: true}
         },
         {

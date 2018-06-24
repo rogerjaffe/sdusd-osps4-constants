@@ -197,7 +197,8 @@ const CONSTANTS = {
       IM3A: 0x20,
       IM3B: 0x40,
       COLLEGE: 0x80,
-      _4CREDITS: 0x100
+      _4CREDITS: 0x100,
+      _6CREDITS: 0x200
     },
     NCR: {
       GRAD: 0x1
@@ -275,6 +276,7 @@ CONSTANTS.UPDATE_LIST_FOR_SUMMARY = {
     IM3A: CONSTANTS.UPDATE.MTH.IM3A,
     IM3B: CONSTANTS.UPDATE.MTH.IM3B,
     _4CREDITS: CONSTANTS.UPDATE.MTH._4CREDITS
+    _6CREDITS: CONSTANTS.UPDATE.MTH._6CREDITS
   },
   PED: {
     GRAD: CONSTANTS.UPDATE.PED.GRAD,
@@ -345,7 +347,8 @@ CONSTANTS.UPDATE_TEXT = {
     IM3A: 'Integrated Math 3A',
     IM3B: 'Integrated Math 3B',
     COLLEGE: 'College Math',
-    _4CREDITS: '4 credits in HS'
+    _4CREDITS: '4 credits in HS',
+    _6CREDITS: '6 credits total'
   },
   NCR: {
     GRAD: 'Graduation reqmts'
@@ -677,6 +680,12 @@ CONSTANTS.SDUSD_AT_RISK = [
           title: 'At least 4 HS credits',
           help: 'Student must receive at least 4 credits of mathematics credits in grades 9-12',
           grades: {9: false, 10: false, 11: true, 12: true}
+        },
+        {
+          criteria: '_6CREDITS',
+          title: '6 total credits',
+          help: 'Student must receive at least 6 credits of mathematics',
+          grades: {9: false, 10: false, 11: true, 12: true}
         }
       ],
       PED: [
@@ -911,6 +920,12 @@ CONSTANTS.SDUSD_AT_RISK = [
           criteria: '_4CREDITS',
           title: 'At least 4 HS credits',
           help: 'Student must receive at least 4 credits of mathematics credits in grades 9-12',
+          grades: {9: false, 10: false, 11: true, 12: true}
+        },
+        {
+          criteria: '_6CREDITS',
+          title: 'At least 6 total credits',
+          help: 'Student must receive at least 6 credits of mathematics',
           grades: {9: false, 10: false, 11: true, 12: true}
         }
       ],

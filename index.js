@@ -104,7 +104,10 @@ const CONSTANTS = {
       'course_department',
       'term_name',
       'year_number',
-      'current_term'
+      'current_term',
+      'section_number',
+      'maxenrollment',
+      'teacher_number'
     ],
 
     PS_SCHOOL: [
@@ -151,6 +154,15 @@ const CONSTANTS = {
       'email',
       'role',
       'schoolid'
+    ],
+
+    PS_ONLINE_COURSE_REQUESTS: [
+      'student_number',
+      'term_name',
+      'year_number',
+      'schoolid',
+      'course_number',
+      'priority'
     ]
   },
   UPDATE: {

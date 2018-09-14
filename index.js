@@ -156,14 +156,14 @@ const CONSTANTS = {
       'schoolid'
     ],
 
-    PS_ONLINE_COURSE_REQUESTS: [
-      'student_number',
-      'term_name',
-      'year_number',
-      'schoolid',
-      'course_number',
-      'priority'
-    ]
+    // PS_ONLINE_COURSE_REQUESTS: [
+    //   'student_number',
+    //   'term_name',
+    //   'year_number',
+    //   'schoolid',
+    //   'course_number',
+    //   'priority'
+    // ]
   },
   UPDATE: {
     ELA: {
@@ -472,11 +472,11 @@ CONSTANTS.PS_DATA = [
     tablename: 'grades',
     fields: CONSTANTS.PS_FIELDS.PS_GRADE
   },
-  {
-    filename: 'OnlineCourseRequests.csv',
-    tablename: 'online_course_requests',
-    fields: CONSTANTS.PS_FIELDS.PS_ONLINE_COURSE_REQUESTS
-  },
+  // {
+  //   filename: 'OnlineCourseRequests.csv',
+  //   tablename: 'online_course_requests',
+  //   fields: CONSTANTS.PS_FIELDS.PS_ONLINE_COURSE_REQUESTS
+  // },
   {
     filename: 'Schedules.csv',
     tablename: 'schedules',

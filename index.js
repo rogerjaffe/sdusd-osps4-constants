@@ -105,9 +105,9 @@ const CONSTANTS = {
       'term_name',
       'year_number',
       'current_term',
-      'section_number',
-      'maxenrollment',
-      'teacher_number'
+      // 'section_number',
+      // 'maxenrollment',
+      // 'teacher_number'
     ],
 
     PS_SCHOOL: [

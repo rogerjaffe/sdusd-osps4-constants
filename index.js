@@ -13,6 +13,7 @@ const CONSTANTS = {
     COURSE_UNDER_REVIEW_CONTACT: 'Jason Maher at jmaher@sandi.net',
     MAX_STUDENTS_TO_SHOW_IN_COURSE: 200
   },
+  I_HIGH_LAB_COURSE_NUMBERS: ['8155'],
   CREDIT_CHECK: {
     CREDIT_THRESHOLDS: {
       '9': 10,

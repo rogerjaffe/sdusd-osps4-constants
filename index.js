@@ -40,7 +40,8 @@ const CONSTANTS = {
 
     REQUIREMENT_FLAGS_TABLE_NAME: 'requirement_flags',
     JSON_DATA_TABLE_NAME: 'student_data',
-    OSPS_USERS_TABLE: 'users'
+    OSPS_USERS_TABLE: 'users',
+    IHIGH_ELIGIBLE_COURSES_CSV_FILE: 'ihigh_eligible.csv'
   },
   PS_FIELDS: {
     PS_CAHSEE: [

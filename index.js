@@ -168,7 +168,11 @@ const CONSTANTS = {
       'year_number',
       'schoolid',
       'course_number',
-      'priority'
+      'priority',
+      'whocreated',
+      'whencreated',
+      'whomodified',
+      'whenmodified'
     ]
   },
   UPDATE: {
@@ -418,6 +422,7 @@ CONSTANTS.PERMISSIONS = {
     SYSTEM_SETTINGS: 0x800,
     LOG: 0x1000,
     IHIGH: 0x2000,
+    IHIGH_CONFIG: 0x4000,
     ANY: 0xFFFFF
   }
 }

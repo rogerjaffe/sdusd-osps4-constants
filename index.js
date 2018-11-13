@@ -44,7 +44,10 @@ const CONSTANTS = {
 
     IHIGH_ELIGIBLE_COURSES_CSV_FILE: 'ihigh_eligible.csv',
     IHIGH_TABLE_NAME: 'ihigh',
-    IHIGH_FIELDS_FILENAME: 'ihigh_fields.csv'
+    IHIGH_FIELDS_FILENAME: 'ihigh_fields.csv',
+
+    GRADE_REPLACEMENT_CSV_FILENAME: 'grade_replacement.csv',
+    GRADE_REPLACEMENT_CSV_FIELDS_FILENAME: 'grade_replacement_fields.csv'
   },
   PS_FIELDS: {
     PS_CAHSEE: [

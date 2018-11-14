@@ -47,7 +47,8 @@ const CONSTANTS = {
     IHIGH_FIELDS_FILENAME: 'ihigh_fields.csv',
 
     GRADE_REPLACEMENT_CSV_FILENAME: 'grade_replacement.csv',
-    GRADE_REPLACEMENT_CSV_FIELDS_FILENAME: 'grade_replacement_fields.csv'
+    GRADE_REPLACEMENT_CSV_FIELDS_FILENAME: 'grade_replacement_fields.csv',
+    GRADE_REPLACEMENT_TABLE_NAME: 'grade_replacement'
   },
   PS_FIELDS: {
     PS_CAHSEE: [

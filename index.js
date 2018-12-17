@@ -176,7 +176,8 @@ const CONSTANTS = {
       'whocreated',
       'whencreated',
       'whomodified',
-      'whenmodified'
+      'whenmodified',
+      'completed'
     ]
   },
   UPDATE: {

@@ -259,7 +259,8 @@ const CONSTANTS = {
       SEM1: 0x2,
       SEM2: 0x4,
     }
-  }
+  },
+  IN_PROGRESS_OFFSET: 0x800
 }
 
 CONSTANTS.UPDATE_LIST_FOR_SUMMARY = {

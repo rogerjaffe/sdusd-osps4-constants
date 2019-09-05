@@ -331,6 +331,19 @@ CONSTANTS.UPDATE_LIST_FOR_SUMMARY = {
   }
 }
 
+CONSTANTS.SUBJECT_TEXT = {
+  HIS: 'History (a)',
+  ELA: 'English (b)',
+  MTH: 'Math (c)',
+  SCI: 'Science (d)',
+  LOE: 'World Language (e)',
+  VPA: 'Visual / Perf Arts (f)',
+  ELE: 'Electives (g)',
+  PED: 'Phys Ed',
+  OTH: 'Other',
+  NCR: 'No Credit',
+}
+
 CONSTANTS.UPDATE_TEXT = {
   ELA: {
     GRAD: 'Graduation reqmts',

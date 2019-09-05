@@ -341,7 +341,7 @@ CONSTANTS.SUBJECT_TEXT = {
   ELE: 'Electives (g)',
   PED: 'Phys Ed',
   OTH: 'Other',
-  NCR: 'No Credit',
+  NCR: 'Non-credit Courses',
 }
 
 CONSTANTS.UPDATE_TEXT = {

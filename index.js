@@ -485,11 +485,11 @@ CONSTANTS.PERMISSIONS_SETS = {
 }
 
 CONSTANTS.PS_DATA = [
-  {
-    filename: 'CAHSEE.csv',
-    tablename: 'cahsees',
-    fields: CONSTANTS.PS_FIELDS.PS_CAHSEE
-  },
+  // {
+  //   filename: 'CAHSEE.csv',
+  //   tablename: 'cahsees',
+  //   fields: CONSTANTS.PS_FIELDS.PS_CAHSEE
+  // },
   {
     filename: 'CourseList.csv',
     tablename: 'course_lists',

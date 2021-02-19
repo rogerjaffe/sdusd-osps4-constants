@@ -338,7 +338,7 @@ CONSTANTS.SUBJECT_TEXT = {
   SCI: 'Science (d)',
   LOE: 'World Language (e)',
   VPA: 'Visual / Perf Arts (f)',
-  ELE: 'Electives (g)',
+  ELE: 'Electives',
   PED: 'Phys Ed',
   OTH: 'Other',
   NCR: 'Non-credit Courses',

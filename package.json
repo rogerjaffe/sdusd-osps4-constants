@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/rogerjaffe/sdusd-osps4-constants.git"
+    "url": "git+https://github.com/rogerjaffe/sdusd-osps4-constants.git"
   },
   "author": "Roger Jaffe",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/rogerjaffe/sdusd-osps4-constants#readme"
+  "homepage": "https://github.com/rogerjaffe/sdusd-osps4-constants#readme"
 }

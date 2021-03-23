@@ -819,20 +819,20 @@ CONSTANTS.SDUSD_AT_RISK = [
       SCI: [
         {
           criteria: '2_CREDITS',
-          title: '2 credits of any type',
+          title: '2 credits in any area',
           help: 'Student has either passed or is scheduled for (and presumed to pass) two credits of the same science course',
           grades: {9: true, 10: true, 11: true, 12: true}
         },
         {
           criteria: '4_CREDITS',
           title: '4 credits in two areas',
-          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semsters of science courses in two different areas (Life, Physical, one other from Life, Physical, or Other)',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semesters of science courses in two different areas (Life, Physical, one other from Life, Physical, or Other)',
           grades: {9: false, 10: true, 11: true, 12: true}
         },
         {
           criteria: 'GRAD',
           title: "Sci reqmt's satisfied",
-          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semsters of science courses in three areas (Life, Physical, one other from Life, Physical, or Other)',
+          help: 'Student has either passed or is scheduled for (and presumed to pass) four credits of both semesters of science courses in three areas (Life, Physical, one other from Life, Physical, or Other)',
           grades: {9: false, 10: false, 11: true, 12: true}
         }
       ],

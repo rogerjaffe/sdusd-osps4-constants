@@ -68,6 +68,11 @@ const CONSTANTS = {
       'weighted'
     ],
 
+    PS_ETHNIC_STUDIES: [
+      'student_number',
+      'satisfied'
+    ],
+
     PS_FITNESSGRAM: [
       'student_number',
       'overall'
@@ -494,6 +499,11 @@ CONSTANTS.PS_DATA = [
     filename: 'CourseList.csv',
     tablename: 'course_lists',
     fields: CONSTANTS.PS_FIELDS.PS_COURSE_LIST
+  },
+  {
+    filename: 'EthnicStudies.csv',
+    tablename: 'ethnic_studies',
+    fields: CONSTANTS.PS_FIELDS.PS_ETHNIC_STUDIES
   },
   {
     filename: 'FitnessGram.csv',

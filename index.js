@@ -10,7 +10,7 @@ const CONSTANTS = {
     EMAIL_LOG_TO: 'rjaffe@sandi.net',
     EMAIL_HOST: 'mail.sandi.net',
     LAST_UPDATE_FILE: 'lastUpdate.txt',
-    COURSE_UNDER_REVIEW_CONTACT: 'Jason Maher at jmaher@sandi.net',
+    COURSE_UNDER_REVIEW_CONTACT: 'Patrick Chen at pchen@sandi.net',
     MAX_STUDENTS_TO_SHOW_IN_COURSE: 200
   },
   I_HIGH_LAB_COURSE_NUMBERS: ['8155'],

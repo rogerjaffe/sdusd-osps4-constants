@@ -553,7 +553,12 @@ CONSTANTS.GUARDIAN_LANGUAGES = {
   '01': 'es',
   '05': 'tl',
   '11': 'ar',
-  '60': 'so'
+  '60': 'so',
+  'eng': "en",
+  'spa': "es",
+  "tgl": "tl",
+  "ara": "ar",
+  "som": "so",
 }
 
 CONSTANTS.GUARDIAN_LANGUAGE_NAMES = {

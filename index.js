@@ -160,7 +160,8 @@ const CONSTANTS = {
       'unaccompanied_youth',
       'runaway_youth',
       'other_living_situation',
-      'modDiploma'
+      'modDiploma',
+      'esntlDiploma'
     ],
 
     PS_USER: [

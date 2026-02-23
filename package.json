@@ -1,6 +1,6 @@
 {
   "name": "sdusd-osps4-constants",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Constants for OSPS V4",
   "main": "index.js",
   "scripts": {

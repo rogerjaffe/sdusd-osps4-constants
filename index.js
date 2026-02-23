@@ -1134,6 +1134,17 @@ CONSTANTS.ETHNICITIES = {
   500: 'Hispanic',
   600: 'African American',
   700: 'White',
+  9001: 'Afghan',
+  9002: 'Chaldean/Assyrian/Syriac',
+  9003: 'Iranian',
+  9004: 'Iraqi',
+  9005: 'Israeli',
+  9006: 'Kurdish',
+  9007: 'Lebanese',
+  9008: 'Palestinian',
+  9009: 'Somali',
+  9010: 'Syrian',
+  9011: 'Other MENA',
 }
 
 CONSTANTS.LIVING_SITUATION_CODES = {
